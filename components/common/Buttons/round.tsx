@@ -24,7 +24,7 @@ const RoundButton = ({className, text, icon, onClick, children}: Props) => {
           width={25}
         />
       }
-      <div className='absolute left-1/2 top-1/2 -translate-x-[50%] -translate-y-[50%]'>
+      <div>
         {text}
       </div>
       {children}
