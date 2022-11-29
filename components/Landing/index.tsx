@@ -21,7 +21,7 @@ const Landing = () => {
       <div className='font-bold text-4xl'>
         Welcome to Chess Games
       </div>
-      <div className='text-gray-500 mt-4'>
+      <div className='text-gray-500 mt-4 mb-14'>
         Log in with your wallet to be able to authenticate and play games
       </div>
       <RoundButton className='w-[400px] h-[65px] rounded-full mt-4' text='Sign in with metamask' icon={MetamaskIcon} onClick={connectMetamask}/>
