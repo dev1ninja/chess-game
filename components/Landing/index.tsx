@@ -24,9 +24,9 @@ const Landing = () => {
       <div className='text-gray-500 mt-4'>
         Log in with your wallet to be able to authenticate and play games
       </div>
-      <RoundButton className='w-[400px] rounded-full mt-4' text='Sign in with metamask' icon={MetamaskIcon} onClick={connectMetamask}/>
+      <RoundButton className='w-[400px] h-[65px] rounded-full mt-4' text='Sign in with metamask' icon={MetamaskIcon} onClick={connectMetamask}/>
       <RoundButton
-        className='w-[400px] rounded-full mt-4 bg-transparent border border-gray-500 text-black'
+        className='w-[400px] h-[65px] rounded-full mt-4 bg-transparent border border-gray-500 text-black'
         text='Sign in with Coinbase Wallet'
         icon={CoinbaseIcon}
         onClick={connectPhantom}
