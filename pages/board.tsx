@@ -1,7 +1,7 @@
 import Head from 'next/head'
 import Image from 'next/image'
 
-import Landing from '@/components/Landing'
+import GameBoard from '@/components/GameBoard'
 
 export default function Home() {
   return (
@@ -10,7 +10,7 @@ export default function Home() {
         <title>Chess Games</title>
         <link rel='icon' href='/favicon.ico' />        
       </Head>
-      <Landing/>
+      <GameBoard/>
     </div>
   )
 }

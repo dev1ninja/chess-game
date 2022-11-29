@@ -1,16 +1,16 @@
 import Head from 'next/head'
 import Image from 'next/image'
 
-import Landing from '@/components/Landing'
+import GameList from '@/components/GameList'
 
 export default function Home() {
   return (
     <div>
       <Head>
         <title>Chess Games</title>
-        <link rel='icon' href='/favicon.ico' />        
+        <link rel='icon' href='/favicon.ico' />
       </Head>
-      <Landing/>
+      <GameList/>
     </div>
   )
 }
