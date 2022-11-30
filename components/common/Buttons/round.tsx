@@ -24,7 +24,7 @@ const RoundButton = ({className, text, icon, onClick, children}: Props) => {
           width={25}
         />
       }
-      <div>
+      <div className='h-full flex flex-col justify-center'>
         {text}
       </div>
       {children}
