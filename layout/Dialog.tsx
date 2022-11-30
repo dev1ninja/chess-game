@@ -32,7 +32,7 @@ const DialogLayout = ({className, children, header, footer, okName, okAction, ca
     }
   }, [])
   return (
-    show ? <div className='w-screen h-screen fixed'>
+    show ? <div className='w-screen h-screen fixed top-0 z-[100]'>
       <div className='w-full h-full bg-gray-500/50 backdrop-blur-sm'/>
       <div
         ref={containerRef}
