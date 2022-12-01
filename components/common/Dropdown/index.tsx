@@ -32,7 +32,7 @@ const Dropdown = ({className, label, options, unit}: Props) => {
     <div className={twMerge('', className)}>
       <div className='font-bold text-left mb-2'>{label}</div>
       <div className='w-full relative text-left' ref={containerRef}>
-        <div className='w-full px-4 py-2 border' onClick={() => setShow(!show)}>
+        <div className='w-full px-4 py-2 border cursor-pointer' onClick={() => setShow(!show)}>
           {options && options[selected]}
           <Image className='absolute top-[50%] -translate-y-[50%] right-4' src={DownIcon} alt='' width={15}/>
           <div  className='absolute top-[50%] -translate-y-[50%] right-4 -translate-x-[100%]'>{unit}</div>
@@ -43,7 +43,7 @@ const Dropdown = ({className, label, options, unit}: Props) => {
               <div
                 key={index}
                 onClick={() => {setSelected(index); setShow(false);}}
-                className='px-4 py-2 border-l border-r border-b'
+                className='px-4 py-2 border-l border-r border-b cursor-pointer'
               >
                 {option}
               </div>
